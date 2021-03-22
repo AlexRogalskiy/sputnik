@@ -38,6 +38,7 @@
 [![Hits-of-Code](https://hitsofcode.com/github/AlexRogalskiy/sputnik)](https://hitsofcode.com/github/AlexRogalskiy/sputnik/view)
 [![ComVer](https://img.shields.io/badge/ComVer-compliant-brightgreen.svg)][tags]
 
+[![Build Status](https://api.cirrus-ci.com/github/AlexRogalskiy/sputnik.svg)](https://cirrus-ci.com/github/AlexRogalskiy/sputnik)
 [![CI](https://github.com/AlexRogalskiy/sputnik/workflows/CI/badge.svg)](https://github.com/AlexRogalskiy/sputnik/actions/workflows/build.yml)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![GitHub Super-Linter](https://github.com/AlexRogalskiy/sputnik/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)

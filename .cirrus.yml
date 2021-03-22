@@ -1,0 +1,24 @@
+container:
+  image: node:latest
+
+install_task:
+  script: npm run install
+
+build_task:
+  script: npm run all
+
+test_task:
+  script: npm run test:all
+
+check_task:
+  script: npm run check:all
+
+publish_task:
+  only_if: $BRANCH == 'master'
+  trigger_type: manual
+  depends_on:
+    - install
+    - build
+    - test
+    - check
+  script: npm run publish
