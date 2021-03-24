@@ -44,7 +44,11 @@
 [![GitHub Super-Linter](https://github.com/AlexRogalskiy/sputnik/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 [![Mega-Linter](https://github.com/AlexRogalskiy/sputnik/workflows/Mega-Linter/badge.svg?branch=master)](https://github.com/AlexRogalskiy/sputnik/actions?query=workflow%3AMega-Linter+branch%3Amaster)
 [![BCH compliance](https://bettercodehub.com/edge/badge/AlexRogalskiy/sputnik?branch=master)](https://bettercodehub.com/)
+
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/AlexRogalskiy/sputnik)
 [![Chat](https://img.shields.io/badge/chat-discussions-success.svg)](https://github.com/AlexRogalskiy/sputnik/discussions)
+[![Open questions](https://img.shields.io/badge/Open-questions-blue.svg?style=flat-curved)](https://github.com/AlexRogalskiy/sputnik/labels/question)
+[![Open bugs](https://img.shields.io/badge/Open-bugs-red.svg?style=flat-curved)](https://github.com/AlexRogalskiy/sputnik/labels/bug)
 
 ## *Table of contents*
 
