@@ -24,7 +24,7 @@
         "lint:report": "tsdx lint src tools --report-file report.json",
         "pretty": "pretty-quick --staged --pattern '!test/tests/lint/**'",
         "license": "license-checker --json > licenses.json",
-        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
         "docs": "typedoc",
         "remark": "remark -q -f .",
         "semantic-release": "semantic-release",
