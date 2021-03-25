@@ -1,4 +1,4 @@
-import { Optional } from '../typings/types'
+import { Optional } from '../typings/standard-types'
 
 import { hasProperty } from './utils'
 import { valueError } from './errors'

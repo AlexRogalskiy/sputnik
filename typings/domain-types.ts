@@ -1,10 +1,4 @@
 /**
- * Optional
- * @desc Type representing [`Optional`] in TypeScript: `T | null | undefined`
- */
-export type Optional<T> = T | null | undefined
-
-/**
  * StyleOptions
  * @desc Type representing configuration options
  */

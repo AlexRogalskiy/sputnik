@@ -2,7 +2,7 @@ import parseJsonType from 'parse-json'
 import yamlType from 'yaml'
 import importFreshType from 'import-fresh'
 
-import { Optional } from '../typings/types'
+import { Optional } from '../typings/standard-types'
 
 export type Config = any
 

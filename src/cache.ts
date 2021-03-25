@@ -1,4 +1,4 @@
-import { Optional } from '../typings/types'
+import { Optional } from '../typings/standard-types'
 
 export type CacheResult = {
     config: any

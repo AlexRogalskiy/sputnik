@@ -53,3 +53,11 @@ jobs:
         uses: gerrit0/circular-dependency-check@v1
         with:
           entry: dist/index.js
+
+      - name: coverage
+        uses: codecov/codecov-action@v1
+        with:
+          name: actions ${{ matrix.node }}
+          file: ./coverage/coverage-final.json
+          fail_ci_if_error: true
+          verbose: true

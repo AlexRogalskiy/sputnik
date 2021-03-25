@@ -1,6 +1,6 @@
 import fs from 'fs'
 
-import { Optional } from '../typings/types'
+import { Optional } from '../typings/standard-types'
 
 interface Options {
     throwNotFound?: boolean
