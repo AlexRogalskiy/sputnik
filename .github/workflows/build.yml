@@ -14,10 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version:
-          - 10.x
-          - 12.x
-          - 14.x
+        node-version: [ "12", "13", "14" ]
+
     steps:
       - uses: actions/checkout@v2
         with:
@@ -57,7 +55,7 @@ jobs:
       - name: coverage
         uses: codecov/codecov-action@v1
         with:
-          name: actions ${{ matrix.node }}
+          name: actions ${{ matrix.node-version }}
           file: ./coverage/coverage-final.json
           fail_ci_if_error: true
           verbose: true

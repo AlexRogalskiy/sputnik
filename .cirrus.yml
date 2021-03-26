@@ -2,7 +2,7 @@ container:
   image: node:latest
 
 install_task:
-  script: npm run install
+  script: npm install
 
 build_task:
   script: npm run all
