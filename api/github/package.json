@@ -1,0 +1,47 @@
+{
+    "name": "sputnik-github-devbot",
+    "version": "0.0.0-dev",
+    "description": "GitHub DevBot Sputnik platform connector",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "license": "GPL-3.0",
+    "private": true,
+    "scripts": {
+        "build": "rimraf dist/* && tsc",
+        "test": "npm run build && mocha 'dist/test/**/*-test.js'",
+        "prepublish": "typings install && npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pimterry/dev-bot.git"
+    },
+    "keywords": [
+        "github",
+        "devbot platform",
+        "sputnik"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/pimterry/dev-bot/issues"
+    },
+    "homepage": "https://github.com/pimterry/dev-bot#readme",
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "formatio": "^1.2.0",
+        "mocha": "^3.0.2",
+        "nock": "^8.2.1",
+        "rimraf": "^2.5.4",
+        "sinon": "^1.17.5",
+        "sinon-chai": "^2.8.0",
+        "typescript": "^2.1.0-dev.20160922",
+        "typings": "^1.3.3"
+    },
+    "engines": {
+        "node": ">=4.0.0"
+    },
+    "dependencies": {
+        "es6-promisify": "^4.1.0",
+        "github": "^3.0.0",
+        "moment": "^2.15.1"
+    }
+}

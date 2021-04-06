@@ -1,14 +1,18 @@
 'use strict'
 
 module.exports = wallaby => ({
+    debug: false,
+
     files: [
         { pattern: 'test/__fixtures__/*', instrument: false },
         'lib/*.js',
         'lib/__mocks__/*.js',
         '!test/*.spec.js',
+        'src/**/*.ts',
+        'tests/*.ts',
     ],
 
-    tests: ['test/*.spec.js'],
+    tests: ['tests/**/*-test.ts', 'tests/*.spec.js'],
 
     env: {
         type: 'node',
