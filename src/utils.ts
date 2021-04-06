@@ -1,7 +1,7 @@
 export const toString = (value: string | string[]): string => (Array.isArray(value) ? value[0] : value)
 
 export const hasPrototypeProperty = (obj: any, name: string): boolean => {
-    return !obj.hasOwnProperty(name) && name in obj
+    return !Object.prototype.hasOwnProperty.call(obj, name) && name in obj
 }
 
 export const hasProperty = (obj: any, prop: PropertyKey): boolean => {

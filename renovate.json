@@ -23,6 +23,9 @@
     "major": {
         "automerge": false
     },
+    "dockerfile": {
+        "semanticCommitType": "build"
+    },
     "packageRules": [
         {
             "updateTypes": ["minor", "patch", "pin", "digest"],

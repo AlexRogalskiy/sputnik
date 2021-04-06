@@ -16,12 +16,14 @@
 ![GitHub Repository branches](https://badgen.net/github/branches/AlexRogalskiy/sputnik)
 ![GitHub Repository dependents](https://badgen.net/github/dependents-repo/AlexRogalskiy/sputnik)
 
+[![DeepSource](https://deepsource.io/gh/AlexRogalskiy/sputnik.svg/?label=active+issues\&show_trend=true)](https://deepsource.io/gh/AlexRogalskiy/sputnik/?ref=repository-badge)
 [![DeepScan grade](https://deepscan.io/api/teams/11946/projects/16324/branches/347430/badge/grade.svg)](https://deepscan.io/dashboard#view=project\&tid=11946\&pid=16324\&bid=347430)
 [![Tokei](https://tokei.rs/b1/github/AlexRogalskiy/sputnik?category=lines)](https://github.com/XAMPPRocky/tokei)
 ![Mergify Status](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/AlexRogalskiy/sputnik)
 [![Reviewed by Hound](https://img.shields.io/badge/Reviewed_by-Hound-8E64B0.svg)](https://houndci.com)
 [![DOI](https://zenodo.org/badge/348836186.svg)](https://zenodo.org/badge/latestdoi/348836186)
 [![dependencies Status](https://status.david-dm.org/gh/AlexRogalskiy/sputnik.svg)](https://david-dm.org/AlexRogalskiy/sputnik)
+[![devDependencies Status](https://status.david-dm.org/gh/AlexRogalskiy/sputnik.svg)](https://david-dm.org/AlexRogalskiy/sputnik?type=dev)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://raw.githubusercontent.com/alexrogalskiy/sputnik/master/LICENSE?token=AH44ZFH7IF2KSEDK7LSIW3C7YOFYC)
 [![Issue](https://img.shields.io/github/issues/alexrogalskiy/sputnik)](https://img.shields.io/github/issues/alexrogalskiy/sputnik)
@@ -64,6 +66,7 @@
 - [*Forks*](#forks)
 - [*Issues*](#issues)
 - [*Team Tools*](#team-tools)
+- [*OpenGraph Card*](#opengraph-card)
 - [*Development Support*](#development-support)
 
 ## *Description*
@@ -156,6 +159,12 @@ See also the list of [contributors][contributors] who participated in this proje
 [![Edit with Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/AlexRogalskiy/sputnik)
 
 ***Sputnik*** has experimental support for Gitpod, a pre-configured development environment that runs in your browser. To use Gitpod, click the button below and sign in with GitHub. Gitpod also offers a browser add-on, though it is not required.
+
+## *OpenGraph Card*
+
+<p align="center" style="text-align:center;">
+    <img alt="OpenGraph card" src="https://raw.githubusercontent.com/AlexRogalskiy/sputnik/master/images/opengraph-card.png"/>
+</p>
 
 ## *Development Support*
 

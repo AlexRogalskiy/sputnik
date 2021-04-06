@@ -1,8 +1,15 @@
 {
     "name": "Sputnik TypeDoc",
-    "entryPoints": ["./src", "./typings"],
+    "entryPoints": ["./api", "./src", "./typings"],
     "externalPattern": ["./data"],
-    "exclude": ["**/+(dev-packages|examples|scripts)/**/*", "**/*+(.spec|.e2e).ts"],
+    "exclude": [
+        "**/__tests__/**/*",
+        "**/__test_utils__/**/*",
+        "**/__fixtures__/**/*",
+        "**/*+(.spec|.e2e).ts",
+        "**/+(dev-packages|examples|scripts)/**/*",
+        "**/*+(.spec|.e2e).ts"
+    ],
     "excludeExternals": true,
     "hideGenerator": true,
     "readme": "README.md",
