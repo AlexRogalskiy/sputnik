@@ -95,7 +95,7 @@
         "chalk": "2.4.2",
         "cz-conventional-changelog": "3.3.0",
         "conventional-changelog-cli": "2.1.1",
-        "del-cli": "3.0.1",
+        "del-cli": "4.0.1",
         "editorconfig-checker": "3.3.0",
         "eslint": "7.28.0",
         "eslint-plugin-unicorn": "17.2.0",
