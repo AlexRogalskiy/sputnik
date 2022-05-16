@@ -31,7 +31,7 @@
         "mocha": "3.5.3",
         "nock": "8.2.2",
         "rimraf": "2.7.1",
-        "sinon": "1.17.7",
+        "sinon": "14.0.0",
         "sinon-chai": "2.14.0",
         "typescript": "2.9.2",
         "typings": "1.5.0"
