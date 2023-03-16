@@ -70,7 +70,7 @@
         "examples/*"
     ],
     "dependencies": {
-        "concurrently": "6.2.0",
+        "concurrently": "7.6.0",
         "env-cmd": "10.1.0",
         "isomorphic-unfetch": "3.1.0",
         "lodash": "4.17.21"
