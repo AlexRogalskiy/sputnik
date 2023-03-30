@@ -30,7 +30,7 @@
         "formatio": "1.2.0",
         "mocha": "3.5.3",
         "nock": "8.2.2",
-        "rimraf": "2.7.1",
+        "rimraf": "4.4.1",
         "sinon": "1.17.7",
         "sinon-chai": "2.14.0",
         "typescript": "2.9.2",
