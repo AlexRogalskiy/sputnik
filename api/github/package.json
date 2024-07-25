@@ -26,7 +26,7 @@
     },
     "homepage": "https://github.com/pimterry/dev-bot#readme",
     "devDependencies": {
-        "chai": "3.5.0",
+        "chai": "4.5.0",
         "formatio": "1.2.0",
         "mocha": "3.5.3",
         "nock": "8.2.2",
