@@ -99,7 +99,7 @@
         "editorconfig-checker": "3.3.0",
         "eslint": "7.28.0",
         "eslint-plugin-unicorn": "17.2.0",
-        "eslint-import-resolver-typescript": "2.4.0",
+        "eslint-import-resolver-typescript": "3.6.3",
         "eslint-plugin-eslint-comments": "3.2.0",
         "eslint-config-prettier": "6.15.0",
         "eslint-plugin-github": "4.1.3",
