@@ -121,7 +121,7 @@
         "jsonlint": "1.6.3",
         "opener": "1.5.2",
         "license-checker": "25.0.1",
-        "lint-staged": "10.5.4",
+        "lint-staged": "15.2.10",
         "parse-json": "5.2.0",
         "path-type": "4.0.0",
         "prettier": "2.3.0",
