@@ -71,7 +71,7 @@
     ],
     "dependencies": {
         "concurrently": "6.2.0",
-        "env-cmd": "10.1.0",
+        "env-cmd": "11.0.0",
         "isomorphic-unfetch": "3.1.0",
         "lodash": "4.17.21"
     },
