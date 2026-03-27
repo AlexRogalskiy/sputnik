@@ -90,7 +90,7 @@
         "@types/prettier": "2.2.3",
         "@typescript-eslint/eslint-plugin": "4.26.0",
         "@typescript-eslint/parser": "4.26.0",
-        "dateformat": "4.5.1",
+        "dateformat": "5.0.3",
         "boxen": "5.0.1",
         "chalk": "2.4.2",
         "cz-conventional-changelog": "3.3.0",
